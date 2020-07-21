@@ -6,7 +6,7 @@
   "data_path": "cifar10_data",
 
   "_comment": "===== TRAINING CONFIGURATION =====",
-  "tf_random_seed": 451760341,
+  "tf_random_seed": 1451760341,
   "np_random_seed": 216105420,
   "max_num_training_steps": 80000,
   "num_output_steps": 100,

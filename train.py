@@ -16,6 +16,8 @@ import numpy as np
 from model import Model
 import cifar10_input
 from pgd_attack import LinfPGDAttack
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 with open('config.json') as config_file:
     config = json.load(config_file)
